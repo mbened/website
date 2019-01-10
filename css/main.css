@@ -1,0 +1,68 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#cognito-logout {
+	display: none;
+}
+
+#user-profile {
+	display: none;
+}
+
+#profilepicture {
+	height: 20px;
+	width: 20px;
+}
+
+#hero {
+	width: 100%;
+	height: 80vh;
+	position: relative;
+}
+
+#hero .container-background {
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#hero .container-shadow {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero .container-message {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	text-align: center;
+	margin-top: 22vh;
+}
+
+#hero h1 {
+	font-size: 40pt;
+	font-weight: 600;
+}
+
+#hero p {
+	font-size: 20pt;
+}
